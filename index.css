@@ -1,0 +1,298 @@
+:root {
+    /* background-color: #00ffff; */
+    font-family: 'Poppins';
+}
+
+::selection {
+    color: red;
+    /* background-color:; */
+}
+
+.channelprofile {
+    height: 40px;
+    float: left;
+    margin-right: 9px;
+    pointer-events: none;
+}
+
+.channelname {
+    display: inline;
+    font-size: 30px;
+    color: blue;
+
+}
+
+.channel {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+
+.topA a {
+    display: inline;
+    position: absolute;
+    font-size: 20px;
+    top: 30px;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Home {
+    position: absolute;
+    right: 650px;
+    font-weight: 800;
+    transform: scale(1.1);
+}
+
+.Videos {
+    position: absolute;
+    right: 455px;
+}
+
+.Notes {
+    position: absolute;
+    right: 375px;
+}
+
+.topA :hover {
+    transform: scale(1.1);
+    transition: all 0.01;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Register {
+    display: inline;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.Login {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    object-position: center;
+    padding: 8px;
+    position: absolute;
+    right: 275px;
+    text-decoration-line: none;
+    border-radius: 10px;
+
+}
+
+.Signup {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    object-position: center;
+    padding: 8px;
+    position: absolute;
+    right: 165px;
+    border-radius: 10px;
+    text-decoration-line: none;
+}
+
+.Register :hover {
+    color: rgb(0, 0, 0);
+    background-color: #00ffff;
+    transform: scale(1.05);
+}
+
+.Contact {
+    display: inline;
+    top: 19px;
+    font-size: 20px;
+    border: 2px solid black;
+    object-position: center;
+    padding: 9px;
+    position: absolute;
+    right: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact :hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+hr {
+    position: relative;
+    top: 90px;
+    box-shadow: 1px 1px 1px 1px #9b9b9b;
+    border: 1px rgb(120, 120, 120);
+    transform: scaleX(1.1);
+}
+
+.AnimePic {
+    height: 500px;
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    pointer-events: none;
+    float: right;
+}
+
+.channelDescription {
+    color: #6B7280;
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    margin-right: 600px;
+}
+
+.Welcome {
+    font-size: 40px;
+    position: absolute;
+    top: 120px;
+    clear: right;
+
+}
+
+.cvText {
+    color: rgb(30, 30, 255);
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 600px;
+}
+
+.vidiv1 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: content-box;
+    width: fit-content;
+    height: 400px;
+    border-radius: 30px;
+    right: 100px;
+    background-color: #ffffff;
+    text-align: center;
+    /* margin-left: 50px; */
+    overflow-wrap: break-word;
+    float: left;
+    margin-left: 70px;
+}
+
+.Thumbnail_1 {
+    width: 400px;
+    border-radius: 30px 30px 0 0;
+    pointer-events: none;
+}
+
+.Title1 {
+    font-size: 19px;
+    position: absolute;
+    top: 950px;
+    width: 410px;
+    text-align: left;
+}
+
+.button1 {
+    padding: 10px;
+    position: absolute;
+    top: 1050px;
+    left: 80px;
+    background-color: rgb(30, 30, 255);
+    color: white;
+    border-radius: 20px;
+    border: red;
+    width: 200px;
+    font-weight: 900;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+.vidiv2 {
+    margin-left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: content-box;
+    width: fit-content;
+    height: 400px;
+    border-radius: 30px;
+    right: 100px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    overflow-wrap: break-word;
+    float: left;
+
+}
+
+.Thumbnail_2 {
+    width: 400px;
+    border-radius: 30px 30px 0 0;
+    pointer-events: none;
+}
+
+.Title2 {
+    font-size: 19px;
+    position: absolute;
+    top: 950px;
+    width: 410px;
+    text-align: left;
+}
+
+.button2 {
+    padding: 10px;
+    position: absolute;
+    margin-top: 341.5px;
+    margin-left: -390px;
+    background-color: rgb(30, 30, 255);
+    color: white;
+    border-radius: 20px;
+    border: red;
+    width: 200px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.vidiv3 {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: content-box;
+    width: fit-content;
+    height: 400px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 70%;
+    margin-right: 70px;
+}
+
+.Thumbnail_3 {
+    width: 400px;
+    border-radius: 30px 30px 0 0;
+    pointer-events: none;
+
+}
+
+.Title3 {
+    font-size: 19px;
+    position: relative;
+    top: 10px;
+    width: 400px;
+    text-align: left;
+}
+
+.button3 {
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    left: -90px;
+    background-color: rgb(30, 30, 255);
+    color: white;
+    border-radius: 20px;
+    border: red;
+    width: 200px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#button :hover {
+    transform: scale(1.01);
+    background-color: rgb(22, 22, 135);
+}

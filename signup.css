@@ -1,0 +1,145 @@
+.body {
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-family: 'Poppins';
+}
+
+.top {
+    font-size: 30px;
+    text-align: center;
+    margin-top: -4%;
+}
+
+.page {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: content-box;
+    width: 34%;
+    height: 48rem;
+    border-radius: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    position: fixed;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.name {
+    border: 4px solid rgb(128, 128, 128);
+    border-radius: 6px;
+    width: 90%;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 250px;
+    font-family: 'Poppins';
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+::placeholder {
+    font-family: 'Poppins';
+    border-radius: 1px;
+    color: rgb(128, 128, 128);
+    border: 10px 10px solid blue;
+}
+
+.email {
+    border: 4px solid rgb(128, 128, 128);
+    border-radius: 6px;
+    font-size: 20px;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 20px;
+    top: 310px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.phone {
+    border: 4px solid rgb(128, 128, 128);
+    border-radius: 6px;
+    font-size: 20px;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-weight: 700;
+    position: absolute;
+    top: 370px;
+    left: 20px;
+}
+
+#dob {
+    font-family: "Poppins";
+    position: absolute;
+    top: 420px;
+    left: 20px;
+}
+
+.dobtext {
+    font-size: 20px;
+    font-family: "Poppins";
+    display: inline;
+    font-weight: 700;
+}
+
+.dob {
+    font-size: 17px;
+    font-family: "Poppins";
+    font-weight: 600;
+    border: 4px solid rgb(128, 128, 128);
+}
+
+.password {
+    border: 4px solid rgb(128, 128, 128);
+    border-radius: 6px;
+    font-size: 20px;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-weight: 700;
+    position: absolute;
+    top: 490px;
+    left: 20px;
+}
+
+.channellogo {
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: 190px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.signupbutton {
+    position: absolute;
+    bottom: 150px;
+    right: 15px;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    padding: 10px 190px 10px 190px;
+    text-decoration-line: none;
+    border-radius: 30px;
+}
+
+.loginbutton {
+    position: absolute;
+    bottom: 50px;
+    right: 15px;
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    padding: 10px 200px 10px 200px;
+    text-decoration-line: none;
+    border-radius: 30px;
+}
+
+.or {
+    font-size: 30px;
+    font-weight: 10;
+    position: absolute;
+    bottom: 40px;
+    right: 50%;
+    color: rgb(132, 0, 255);
+}

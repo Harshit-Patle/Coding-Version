@@ -1,0 +1,157 @@
+:root {
+    /* background-color: #00ffff; */
+    font-family: 'Poppins';
+}
+
+::selection {
+    color: red;
+    /* background-color:; */
+}
+
+.channelprofile {
+    height: 40px;
+    float: left;
+    margin-right: 9px;
+    pointer-events: none;
+}
+
+.channelname {
+    display: inline;
+    font-size: 30px;
+    color: blue;
+
+}
+
+.channel {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+
+.topA a {
+    display: inline;
+    position: absolute;
+    font-size: 20px;
+    top: 30px;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Home {
+    position: absolute;
+    right: 650px;
+}
+
+.Videos {
+    position: absolute;
+    right: 455px;
+    font-weight: 800;
+    transform: scale(1.1);
+}
+
+.Notes {
+    position: absolute;
+    right: 375px;
+}
+
+.topA :hover {
+    transform: scale(1.1);
+    transition: all 0.01;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Register {
+    display: inline;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.Login {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    object-position: center;
+    padding: 8px;
+    position: absolute;
+    right: 275px;
+    text-decoration-line: none;
+    border-radius: 10px;
+
+}
+
+.Signup {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    object-position: center;
+    padding: 8px;
+    position: absolute;
+    right: 165px;
+    border-radius: 10px;
+    text-decoration-line: none;
+}
+
+.Register :hover {
+    color: rgb(0, 0, 0);
+    background-color: #00ffff;
+    transform: scale(1.05);
+}
+
+.Contact {
+    display: inline;
+    top: 19px;
+    font-size: 20px;
+    border: 2px solid black;
+    object-position: center;
+    padding: 9px;
+    position: absolute;
+    right: 20px;
+    border-radius: 10px;
+    color: black;
+    text-decoration-line: none;
+}
+
+.contact :hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+hr {
+    position: relative;
+    top: 90px;
+    box-shadow: 1px 1px 1px 1px #9b9b9b;
+    border: 1px rgb(120, 120, 120);
+    transform: scaleX(1.1);
+}
+
+.allvideo {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.vidtt {
+    font-size: 50px;
+}
+
+.vidttcv {
+    color: blue;
+}
+
+.vid1 {
+    margin: 13px;
+    box-shadow: #6c6c6c 15px 15px 18px;
+    box-sizing: content-box;
+    display: inline;
+}
+
+.play {
+    margin: 13px;
+    box-shadow: #6c6c6c 15px 15px 18px;
+    box-sizing: content-box;
+    display: inline;
+    margin-bottom: 50px;
+}

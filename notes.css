@@ -1,0 +1,230 @@
+:root {
+    /* background-color: #00ffff; */
+    font-family: 'Poppins';
+}
+
+::selection {
+    color: red;
+    /* background-color:; */
+}
+
+.channelprofile {
+    height: 40px;
+    float: left;
+    margin-right: 9px;
+    pointer-events: none;
+}
+
+.channelname {
+    display: inline;
+    font-size: 30px;
+    color: blue;
+
+}
+
+.channel {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+
+.topA a {
+    display: inline;
+    position: absolute;
+    font-size: 20px;
+    top: 30px;
+    color: black;
+    text-decoration-line: none;
+}
+
+.Home {
+    position: absolute;
+    right: 650px;
+}
+
+.Videos {
+    position: absolute;
+    right: 455px;
+}
+
+.Notes {
+    position: absolute;
+    right: 375px;
+    font-weight: 800;
+    transform: scale(1.1);
+}
+
+.topA :hover {
+    transform: scale(1.1);
+    transition: all 0.01;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Register {
+    display: inline;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.Login {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    object-position: center;
+    padding: 8px;
+    position: absolute;
+    right: 275px;
+    text-decoration-line: none;
+    border-radius: 10px;
+
+}
+
+.Signup {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    object-position: center;
+    padding: 8px;
+    position: absolute;
+    right: 165px;
+    border-radius: 10px;
+    text-decoration-line: none;
+}
+
+.Register :hover {
+    color: rgb(0, 0, 0);
+    background-color: #00ffff;
+    transform: scale(1.05);
+}
+
+.Contact {
+    display: inline;
+    top: 19px;
+    font-size: 20px;
+    border: 2px solid black;
+    object-position: center;
+    padding: 9px;
+    position: absolute;
+    right: 20px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.contact :hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+hr {
+    position: relative;
+    top: 90px;
+    box-shadow: 1px 1px 1px 1px #9b9b9b;
+    border: 1px rgb(120, 120, 120);
+    transform: scaleX(1.1);
+}
+
+.toptext {
+    position: absolute;
+    top: 70px;
+    left: 20%;
+
+}
+
+.texttop {
+    font-size: 50px;
+}
+
+#texttop {
+    color: blue;
+}
+
+.doc1 {
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    padding: 10px 10px 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+.doc1text {
+    font-size: 45px;
+}
+
+.doc1file {
+    text-decoration-line: none;
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    font-weight: 800;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.d2 {
+    position: absolute;
+    top: 470px;
+    left: 10%;
+    padding: 10px 10px 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+.d2t {
+    font-size: 45px;
+}
+
+.d2t1 {
+    font-size: 35px;
+}
+
+.d2f1 {
+    text-decoration-line: none;
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    font-weight: 800;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.d2t2,
+.d2t3,
+.d2t4,
+.d2t5 {
+    font-size: 35px;
+}
+
+.d2f2,
+.d2f3,
+.d2f4,
+.d2f5,
+.open {
+    text-decoration-line: none;
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(235, 235, 235);
+    background-color: blue;
+    font-weight: 800;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.foot {
+    position: absolute;
+    bottom: -110%;
+    left: 20%;
+    font-size: 20px;
+    visibility: hidden;
+}
