@@ -142,10 +142,13 @@ hr {
 }
 
 .vid1 {
-    margin: 13px;
+    margin-left: 60px;
+    margin-top: 20px;
     box-shadow: #6c6c6c 15px 15px 18px;
     box-sizing: content-box;
     display: inline;
+    height: 366px;
+    width: 650px;
 }
 
 .play {
