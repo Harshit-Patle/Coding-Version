@@ -1,6 +1,12 @@
+
 :root {
     /* background-color: #00ffff; */
     font-family: 'Poppins';
+}
+
+::-moz-selection {
+    color: red;
+    /* background-color:; */
 }
 
 ::selection {
@@ -35,6 +41,7 @@
     font-size: 20px;
     top: 30px;
     color: black;
+    -webkit-text-decoration-line: none;
     text-decoration-line: none;
 }
 
@@ -52,11 +59,17 @@
     position: absolute;
     right: 375px;
     font-weight: 800;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
 .topA :hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
+    -webkit-transition: all 0.01;
+    -o-transition: all 0.01;
     transition: all 0.01;
     text-decoration: underline;
     font-weight: bold;
@@ -73,10 +86,12 @@
 .Login {
     color: rgb(255, 255, 255);
     background-color: blue;
+    -o-object-position: center;
     object-position: center;
     padding: 8px;
     position: absolute;
     right: 275px;
+    -webkit-text-decoration-line: none;
     text-decoration-line: none;
     border-radius: 10px;
 
@@ -85,17 +100,21 @@
 .Signup {
     color: rgb(255, 255, 255);
     background-color: blue;
+    -o-object-position: center;
     object-position: center;
     padding: 8px;
     position: absolute;
     right: 165px;
     border-radius: 10px;
+    -webkit-text-decoration-line: none;
     text-decoration-line: none;
 }
 
 .Register :hover {
     color: rgb(0, 0, 0);
     background-color: #00ffff;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
 
@@ -104,6 +123,7 @@
     top: 19px;
     font-size: 20px;
     border: 2px solid black;
+    -o-object-position: center;
     object-position: center;
     padding: 9px;
     position: absolute;
@@ -116,14 +136,19 @@
 .contact :hover {
     color: white;
     background-color: rgb(0, 0, 0);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
     transform: scale(1.05);
 }
 
 hr {
     position: relative;
     top: 90px;
+    -webkit-box-shadow: 1px 1px 1px 1px #9b9b9b;
     box-shadow: 1px 1px 1px 1px #9b9b9b;
     border: 1px rgb(120, 120, 120);
+    -webkit-transform: scaleX(1.1);
+    -ms-transform: scaleX(1.1);
     transform: scaleX(1.1);
 }
 
@@ -147,7 +172,9 @@ hr {
     top: 200px;
     left: 10%;
     padding: 10px 10px 20px 10px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    -webkit-box-sizing: content-box;
     box-sizing: content-box;
     border-radius: 10px;
 }
@@ -157,6 +184,7 @@ hr {
 }
 
 .doc1file {
+    -webkit-text-decoration-line: none;
     text-decoration-line: none;
     border: 2px solid blue;
     border-radius: 15px;
@@ -173,7 +201,9 @@ hr {
     top: 470px;
     left: 10%;
     padding: 10px 10px 20px 10px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    -webkit-box-sizing: content-box;
     box-sizing: content-box;
     border-radius: 10px;
 }
@@ -187,6 +217,7 @@ hr {
 }
 
 .d2f1 {
+    -webkit-text-decoration-line: none;
     text-decoration-line: none;
     border: 2px solid blue;
     border-radius: 15px;
@@ -210,6 +241,7 @@ hr {
 .d2f4,
 .d2f5,
 .open {
+    -webkit-text-decoration-line: none;
     text-decoration-line: none;
     border: 2px solid blue;
     border-radius: 15px;

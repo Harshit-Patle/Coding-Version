@@ -1,4 +1,6 @@
+
 .body {
+        background-image: -o-linear-gradient(47deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
         background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
         font-family: 'Poppins';
 }
@@ -10,7 +12,9 @@
 }
 
 .page {
+        -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        -webkit-box-sizing: content-box;
         box-sizing: content-box;
         width: 34%;
         height: 48rem;
@@ -33,6 +37,34 @@
         font-family: 'Poppins';
         color: rgb(0, 0, 0);
         font-weight: 700;
+}
+
+::-webkit-input-placeholder {
+        font-family: 'Poppins';
+        border-radius: 1px;
+        color: rgb(128, 128, 128);
+        border: 10px 10px solid blue;
+}
+
+::-moz-placeholder {
+        font-family: 'Poppins';
+        border-radius: 1px;
+        color: rgb(128, 128, 128);
+        border: 10px 10px solid blue;
+}
+
+:-ms-input-placeholder {
+        font-family: 'Poppins';
+        border-radius: 1px;
+        color: rgb(128, 128, 128);
+        border: 10px 10px solid blue;
+}
+
+::-ms-input-placeholder {
+        font-family: 'Poppins';
+        border-radius: 1px;
+        color: rgb(128, 128, 128);
+        border: 10px 10px solid blue;
 }
 
 ::placeholder {
@@ -62,7 +94,7 @@
         left: 210px;
         padding-top: 35px;
         padding-bottom: 30px;
-        
+
 }
 
 .forgotpassword {
@@ -70,8 +102,11 @@
         position: absolute;
         bottom: 380px;
         right: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         font-size: 20px;
+        -webkit-text-decoration-line: none;
         text-decoration-line: none;
 }
 
@@ -79,10 +114,12 @@
         position: absolute;
         bottom: 200px;
         right: 15px;
+        background-image: -o-linear-gradient(47deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
         background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
         color: rgb(0, 0, 0);
         font-weight: 900;
         padding: 10px 200px 10px 200px;
+        -webkit-text-decoration-line: none;
         text-decoration-line: none;
         border-radius: 30px;
 }
@@ -95,6 +132,7 @@
         color: white;
         font-weight: 500;
         padding: 10px 190px 10px 190px;
+        -webkit-text-decoration-line: none;
         text-decoration-line: none;
         border-radius: 30px;
 }
